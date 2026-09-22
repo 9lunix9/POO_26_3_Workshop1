@@ -23,8 +23,7 @@ public class Workshop {
     }
 
     // Método que retorna la tabla de multiplicar de un número
-    public int[] tablaMultiplicar(int numero, int limite) {
-        // TODO: Implementar el método para retornar la tabla de multiplicar del número dado.
+    public int[] tablaMultiplicar(int n, int l) {
         // Ejemplo: Si numero = 2 y limite = 5, el resultado debería ser [2, 4, 6, 8, 10].
         return new int[0];
     }
@@ -153,8 +152,7 @@ public class Workshop {
     // Método que convierte una cadena a mayúsculas
     public String convertirAMayusculas(String cadena) {
         // TODO: Implementar el método para convertir una cadena a mayúsculas.
-        // Ejemplo: Si cadena = "hello", el resultado debería ser "HELLO".
-        return "";
+        return (cadena).toUpperCase();
     }
 
     // Método que convierte una cadena a minúsculas
